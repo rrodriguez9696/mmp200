@@ -7,7 +7,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     line-height: 1.2;
-    background-color: #C0C0C0
+    background-color: #c0c0c0;
     /*background-image: url("bg.jpg");
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -45,10 +45,14 @@ nav li:hover ul{
 h1{
   text-align:center;
     margin: 0.5em 0;
+    font-family: fantasy;
+    font-size: x-large;
 }
 h3{
     text-align: center;
     padding-bottom: 10px;
+    font-family: fantasy;
+    font-size: large;
 }
 
 .toggle-menu{
@@ -66,6 +70,13 @@ h3{
 }
 .col-3 {
     text-align: center;
+    
+}
+.col-3 img{
+    width:100%;
+}
+.col-3-last img{
+    width:100%;
 }
 
 #date-loc{
@@ -126,6 +137,15 @@ aside{
         padding-top: 15px;
         padding-bottom: 15px;
         text-align: center;
+    }
+    
+
+        
+    .col-3 img{
+        width:100%;
+    }
+    .col-3-last img{
+        width:100%;
     }
     .col-3-last{
         width:31.5%;
